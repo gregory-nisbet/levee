@@ -29,7 +29,10 @@
 static void
 copyright()
 {
-     dputs(" copyright (c) 1983-2019 by David Parsons");
+     if (0) {
+             dputs(" copyright (c) 1983-2019 by David Parsons");
+     }
+     return;
 }
 
 
